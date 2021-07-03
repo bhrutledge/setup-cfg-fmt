@@ -107,14 +107,14 @@ This will show up on the pypi project page
 +long_description_content_type = text/markdown
 ```
 
-### adds `license_file` / `license` / license classifier if `LICENSE` exists
+### adds `license_files` / `license` / license classifier if `LICENSE` exists
 
 ```diff
  [metadata]
  name = pre_commit
  version = 1.14.5
 +license = MIT
-+license_file = LICENSE
++license_files = LICENSE
 +classifiers =
 +    License :: OSI Approved :: MIT License
 ```
